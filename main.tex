@@ -1,0 +1,24 @@
+\documentclass{article}
+
+\usepackage{lipsum} % for dummy text
+
+\begin{document}
+
+\title{Biospeak Template}
+\author{}
+\date{}
+\maketitle
+
+\section{Introduction}
+\lipsum[1]
+
+\section{Methods}
+\lipsum[2]
+
+% Use \input instead of \include to avoid an unwanted new page before the appendix.
+% \include{appendix} would insert a \clearpage before and after the content,
+% which forces a page break. \input{appendix} includes the file inline without
+% any page breaks.
+\input{appendix}
+
+\end{document}

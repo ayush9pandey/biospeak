@@ -1,0 +1,14 @@
+\appendix
+\section{Appendix}
+This is the appendix content. It appears on the same page as the preceding
+content because \texttt{\textbackslash input\{appendix\}} is used instead of
+\texttt{\textbackslash include\{appendix\}}.
+
+The difference:
+\begin{itemize}
+  \item \texttt{\textbackslash include\{appendix\}} expands to
+        \texttt{\textbackslash clearpage \textbackslash input\{appendix\} \textbackslash clearpage},
+        which forces a page break before and after the content.
+  \item \texttt{\textbackslash input\{appendix\}} includes the file inline
+        without inserting any page breaks.
+\end{itemize}
