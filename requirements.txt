@@ -1,0 +1,4 @@
+pacti==0.1.0
+numpy==1.26.4
+scipy==1.16.2
+matplotlib==3.10.6
